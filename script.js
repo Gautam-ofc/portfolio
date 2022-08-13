@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 $(document).ready(function () {
   $(".sidenav").sidenav();
 });
-$("a").on("click", function (e) {
+$(".sidenav a").on("click", function (e) {
   // prevent default anchor click behavior
   e.preventDefault();
 
